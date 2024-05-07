@@ -1,6 +1,6 @@
 .intro {
     padding: 3%;
-    background-image: url("../src/images/coldwar.jpg");
+    background-image: url("../images/coldwar.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 675px;
@@ -212,7 +212,7 @@ p {
 
 .esplora_registi {
     padding: 3%;
-    background-image: url("../src/images/somedirectors.jpg");
+    background-image: url("../images/somedirectors.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 675px;
@@ -220,7 +220,7 @@ p {
 
 .esplora_film {
     padding: 3%;
-    background-image: url("../src/images/520px-La_regina_delle_nevi.jpg");
+    background-image: url("../images/520px-La_regina_delle_nevi.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 675px;
