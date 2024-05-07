@@ -1,0 +1,295 @@
+.intro {
+    padding: 3%;
+    background-image: url("../src/images/coldwar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 675px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+p {
+    color: lightcyan;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color: #007bff;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #007bff;
+}
+
+.nav-link:hover {
+    color: #0056b3;
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    background-color: transparent;
+    margin: 20px 0;
+    padding: 1px;
+    font-size: 12px;
+}
+
+.breadcrumb-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.breadcrumb-item.active {
+    color: #6c757d;
+}
+
+/* Increase the font size on small screens */
+@media screen and (max-width: 768px) {
+    .breadcrumb li {
+        font-size: 22px;
+    }
+}
+
+/* put the breadcrumbs in the center of the page for small screens */
+@media screen and (max-width: 768px) {
+    .centered-breadcrumbs {
+        text-align: center;
+    }
+}
+
+/* Intro Section */
+.intro {
+    padding: 60px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.intro h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.intro h2 p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+
+/* Bio Section */
+.bio {
+    padding: 40px 0;
+}
+
+.bio h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.bio .tab-bio {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.bio .tab-bio th, .bio .tab-bio td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Cards */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-body h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.card-body p {
+    color: #555;
+    font-size: 16px;
+}
+
+.card-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    color: #333;
+}
+
+.footer h5 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer .form-label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.footer .input-group {
+    max-width: 400px;
+}
+
+.footer .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: all 0.3s ease;
+}
+
+.footer .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.footer p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #6c757d;
+    text-align: center;
+}
+
+
+.esplora_registi {
+    padding: 3%;
+    background-image: url("../src/images/somedirectors.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 675px;
+}
+
+.esplora_film {
+    padding: 3%;
+    background-image: url("../src/images/520px-La_regina_delle_nevi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 675px;
+}
+
+img {
+    max-height: 50%;
+}
+
+/* Responsiveness */
+@media (max-width: 992px) {
+    .col-4 {
+        flex: 1 1 calc(50% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .col-4, .col-6 {
+        flex: 1 1 100%;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-brand, .nav-link {
+        margin: 0 10px;
+    }
+
+    .footer .row {
+        flex-direction: column;
+    }
+
+    .footer .col-md-4 {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .intro h1 {
+        font-size: 32px;
+    }
+
+    .intro h2 p {
+        font-size: 16px;
+    }
+
+    .esplora_registi h1, .esplora_film h1 {
+        font-size: 28px;
+    }
+
+    .card-body h4 {
+        font-size: 20px;
+    }
+
+    .breadcrumb {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .breadcrumb-item a {
+        margin-bottom: 5px;
+    }
+
+    .footer .input-group {
+        flex-direction: column;
+    }
+
+    .footer .btn-primary {
+        margin-top: 10px;
+    }
+}
