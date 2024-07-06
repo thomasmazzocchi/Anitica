@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-fluid {
+    margin: 0 auto;
+    row-gap: 20px;
+    column-gap: 1.33%;
+    display: grid;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.image-container img {
+    width: 1200px; /* Imposta la larghezza desiderata */
+    height: 700px; /* Imposta l'altezza desiderata */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.card {
+    width: 500px;
+    height: 300px;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.card-img {
+    width: auto;
+    height: auto;
+    border-radius: 16px;
+    margin-bottom: 1rem;
+    object-fit: scale-down;
+    overflow: hidden; /* Nasconde le parti dell'immagine che superano i limiti */
+}
+
+#filtri {
+    width: 300px;
+    justify-content: center;
+}
+
+.intro {
+    background-image: url("../img/coldwar.jpg");
+    background-size: cover;
+    position: relative;
+    height: 750px;
+    overflow: hidden;
+}
+
+.intro > h2,h1 {
+    justify-content: center;
+}
+
+.row {
+    justify-content: space-around;
+}
+
+.breadcrumb {
+    padding: 10px;
+    justify-content: center;
+}
+
+.pagination {
+    padding: 10px;
+    justify-content: center;
+}
+
+.carousel > .carousel-inner > .carousel-item > img{
+    width: 200px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.pie {
+    justify-content: center;
+}
