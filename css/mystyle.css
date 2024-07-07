@@ -14,11 +14,6 @@
     align-items: stretch;
 }
 
-.image-container img {
-    width: 1200px; /* Imposta la larghezza desiderata */
-    height: 700px; /* Imposta l'altezza desiderata */
-}
-
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -91,4 +86,23 @@
 #pie {
     display: flex;
     justify-content: center;
+}
+
+#lev {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 500px;
+}
+
+#snowq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 500px;
+}
+
+.img-fluid {
+    height: 500px;
+    width: auto;
 }
