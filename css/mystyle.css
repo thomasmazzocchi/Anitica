@@ -46,16 +46,26 @@
     justify-content: center;
 }
 
-.intro {
+#intro {
+    display: inline-block;
+    align-items: center;
     background-image: url("../img/coldwar.jpg");
     background-size: cover;
     position: relative;
     height: 750px;
-    overflow: hidden;
+    text-align: center;
 }
 
-.intro > h2,h1 {
-    justify-content: center;
+#intro > h1 {
+    height: 300px;
+    line-height: 300px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#intro > p {
+    color:aliceblue;
+    font-size: 23px;
 }
 
 .row {
@@ -78,6 +88,7 @@
     object-fit: cover;
 }
 
-.pie {
+#pie {
+    display: flex;
     justify-content: center;
 }
